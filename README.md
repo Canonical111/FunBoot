@@ -9,3 +9,5 @@ using Pkg; Pkg.add(url="https://github.com/Canonical111/FunBoot")
 For better performance, load the package AppleAccelerate on MacOS with Apple Silicon or mkl on Intel CPU.
 
 "using AppleAccelerate" or "using mkl"
+
+You can only run the test script for the moment. We will add a Mathematica package to generate the functional table.
