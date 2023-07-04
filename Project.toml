@@ -1,0 +1,21 @@
+name = "FunBoot"
+uuid = "624387c1-c2da-488a-84ca-717520ddcb51"
+authors = ["Zechuan Zheng <zechuan.zheng.phy@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+BSplineKit = "093aae92-e908-43d7-9660-e50ee39d5a0a"
+DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
+GenericLinearAlgebra = "14197337-ba66-59df-a3e3-ca00e7dcff7a"
+GenericSVD = "01680d73-4ee2-5a08-a1aa-533608c188bb"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+MultiFloats = "bdf0d083-296b-4888-a5b6-7498122e68a5"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
