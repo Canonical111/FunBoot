@@ -211,7 +211,7 @@ function costf(l::Int, delta::T, spintoGap::Int) where T
     if l!=spintoGap
         return zero(delta)
     else  
-        cost=T( 1e50 * 10^(-20* (Float64(delta)-l)) )
+        cost=T( 1e50 * 10^(-50* (Float64(delta)-l)) )
         # return zero(delta)
         return abs(cost) > T(1e-250) ? cost : zero(delta)
     end

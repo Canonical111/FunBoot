@@ -74,9 +74,9 @@ function solutionprint(lp::LinearProgramCompact{T}, onetable::OneDimFunctionalTa
     sortedoplist=map(x->[x[1][1],x[1][2],x[2]* onetable.normplusitp(x[1][1]-x[1][2])* onetable.normminusitp(x[1][1]-x[1][2])*nlnorm(x[1][2], onetable.dphi)], sortedoplist)
     
     @printf("The solution with %d operators.\n", length(sortedoplist))
-    println("|  L  |     Δ       |     OPE^2    |")
-    println("|:---:|:-----------:|:------------:|") 
-    map(x-> @printf("| %3d | %11.7f | %7.6e |\n", x[2], x[1], x[3]),sortedoplist);
+    println("|  L  |         Δ           |        OPE^2        |")
+    println("|:---:|:-------------------:|:-------------------:|") 
+    map(x-> @printf("| %3d | %18.14f | %18.14e |\n", x[2], x[1], x[3]),sortedoplist);
     println("\n")
 end
 
