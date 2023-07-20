@@ -76,7 +76,7 @@ function solutionprint(lp::LinearProgramCompact{T}, onetable::OneDimFunctionalTa
     @printf("The solution with %d operators.\n", length(sortedoplist))
     println("|  L  |         Δ           |        OPE^2        |")
     println("|:---:|:-------------------:|:-------------------:|") 
-    map(x-> @printf("| %3d | %18.14f | %18.14e |\n", x[2], x[1], x[3]),sortedoplist);
+    map(x-> @printf("| %3d | %19.14f | %15.13e |\n", x[2], x[1], x[3]),sortedoplist);
     println("\n")
 end
 
