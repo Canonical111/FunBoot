@@ -23,7 +23,7 @@ using AppleAccelerate
 or
 
 ```julia
-using mkl
+using MKL
 ```
 
 ## Testing
