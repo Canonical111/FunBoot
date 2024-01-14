@@ -1,6 +1,6 @@
 using FunBoot
 #using AppleAccelerate
-# if Intel CPU, use mkl
+# if Intel CPU, using MKL
 # if AMD CPU, delete it
 singlepointfilename="2dIsing.h5"
 newdtable, newfunctionaltable=readsinglepoint(singlepointfilename);
