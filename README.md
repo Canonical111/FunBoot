@@ -36,6 +36,11 @@ To execute the test file, run the following:
 using Pkg; Pkg.test("FunBoot")
 ```
 
+To run a 3d example as given in the folder /test/ for 3d Ising: 
+```bash
+julia 3dtests.jl
+```
+
 ## Upcoming Features
 
 We aim to supplement FunBoot with a Mathematica package that will generate the h5 functional table. This will be added in future updates, enhancing the overall functionality of the FunBoot project.
